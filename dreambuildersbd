@@ -5,11 +5,11 @@ import { Input } from "@/components/ui/input";
 import { motion } from "framer-motion";
 
 const products = [
-  { id: 1, name: "Wireless Earbuds", category: "Electronics", price: 29, image: "/products/earbuds.jpg" },
-  { id: 2, name: "Smartwatch", category: "Electronics", price: 49, image: "/products/smartwatch.jpg" },
-  { id: 3, name: "Blender", category: "Home Appliances", price: 35, image: "/products/blender.jpg" },
-  { id: 4, name: "Sneakers", category: "Fashion", price: 59, image: "/products/sneakers.jpg" },
-  { id: 5, name: "Leather Wallet", category: "Accessories", price: 19, image: "/products/wallet.jpg" },
+  { id: 1, name: "Wireless Earbuds", category: "Electronics", price: 29, "https://via.placeholder.com/300x200?text=Earbuds": "/products/earbuds.jpg" },
+  { id: 2, name: "Smartwatch", category: "Electronics", price: 49, "https://via.placeholder.com/300x200?text=Earbuds": "/products/smartwatch.jpg" },
+  { id: 3, name: "Blender", category: "Home Appliances", price: 35, "https://via.placeholder.com/300x200?text=Earbuds": "/products/blender.jpg" },
+  { id: 4, name: "Sneakers", category: "Fashion", price: 59, "https://via.placeholder.com/300x200?text=Earbuds": "/products/sneakers.jpg" },
+  { id: 5, name: "Leather Wallet", category: "Accessories", price: 19, "https://via.placeholder.com/300x200?text=Earbuds": "/products/wallet.jpg" },
 ];
 
 export default function DreamBuilders() {
